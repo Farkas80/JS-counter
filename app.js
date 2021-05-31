@@ -1,9 +1,12 @@
-let mainNum = document.getElementById('mainNum');
-let moreBtn = document.getElementsByClassName('more');
-let lessBtn = document.getElementsByClassName('less');
+let nums = document.querySelector('.nums');
+let mainNum = document.querySelector('#mainNum');
+let plusBtn = document.querySelector('#plusBtn');
+let minusBtn = document.querySelector('#minusBtn');
 
-moreBtn.addEventListener('click', (e) => {
-    e.preventDefault();
+console.log('hfrkv');
+
+plusBtn.addEventListener('click', (e) => {
+    console.log("mukodj")    
     mainNum++;
-    mainNum.innerText = mainNum;
+    mainNum.innerHTML = mainNum;
 });
