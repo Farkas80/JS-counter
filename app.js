@@ -18,3 +18,4 @@ function decrement() {
     console.log(count);
     mainNum.innerText = count;
 }
+
