@@ -3,11 +3,13 @@ body {
   width: 100%;
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .container {
-  width: 50%;
+  position: relative;
+  top: 50vh;
+  width: 35%;
   height: 50%;
   margin: auto;
   display: -webkit-box;
@@ -19,4 +21,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+button {
+  cursor: pointer;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 15%;
+  border-style: hidden;
+  font-size: 2rem;
+  -webkit-box-shadow: 0px 5px 10px dodgerblue;
+          box-shadow: 0px 5px 10px dodgerblue;
+}
+
+#mainNum {
+  font-size: 4rem;
 }
