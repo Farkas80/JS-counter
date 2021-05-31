@@ -1,12 +1,20 @@
-let nums = document.querySelector('.nums');
-let mainNum = document.querySelector('#mainNum');
-let plusBtn = document.querySelector('#plusBtn');
-let minusBtn = document.querySelector('#minusBtn');
+let mainNum = document.getElementById('mainNum');
+let plusBtn = document.getElementById('plusBtn');
+let minusBtn = document.getElementById('minusBtn');
+console.log(mainNum);
+console.log(plusBtn);
+console.log(minusBtn);
 
-console.log('hfrkv');
+let count = 0;
 
-plusBtn.addEventListener('click', (e) => {
-    console.log("mukodj")    
-    mainNum++;
-    mainNum.innerHTML = mainNum;
-});
+function increment() {
+    count = count + 1;
+    console.log(count);
+    mainNum.innerText = count;
+}
+
+function decrement() {
+    count = count - 1;
+    console.log(count);
+    mainNum.innerText = count;
+}

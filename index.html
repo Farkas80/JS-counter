@@ -10,15 +10,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="lessBtn">
-            <button id= "minusBtn" class="less"><i class="fas fa-arrow-down fa-8x"></i></button>
-        </div>
-        <div class="nums">
-            <div id="mainNum" class="displayNum">0</div>
-        </div>
         <div class="moreBtn">
-            <button id="plusBtn" class="more"><i class="fas fa-arrow-up fa-8x"></i></button>
+            <button id="plusBtn" onclick="increment()"><i class="fas fa-arrow-up fa-8x"></i></button>
+        </div>        
+            <div id="mainNum">0</div>        
+        <div class="lessBtn">
+            <button id= "minusBtn" onclick="decrement()"><i class="fas fa-arrow-down fa-8x"></i></button>
         </div>
+      
     </div>
     <script src="app.js"></script>
 </body>
