@@ -1,6 +1,7 @@
 let mainNum = document.getElementById('mainNum');
 let plusBtn = document.getElementById('plusBtn');
 let minusBtn = document.getElementById('minusBtn');
+let resetBtn = document.getElementById('reset');
 console.log(mainNum);
 console.log(plusBtn);
 console.log(minusBtn);
@@ -19,3 +20,9 @@ function decrement() {
     mainNum.innerText = count;
 }
 
+function reset() {
+    count = 0;
+    mainNum.textContent = count;
+}
+
+resetBtn.addEventListener('click', reset());
