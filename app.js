@@ -4,10 +4,6 @@ let minusBtn = document.getElementById('minusBtn');
 let resetBtn = document.getElementById('reset');
 let values = document.getElementById('values');
 
-console.log(mainNum);
-console.log(plusBtn);
-console.log(minusBtn);
-
 let count = 0;
 
 function increment() {
@@ -27,9 +23,7 @@ function reset() {
     mainNum.textContent = count;
 }
 
-function save() {
-    console.log('haho')
-    let savedValues = count + '-';
-    console.log(savedValues);
-    savedValues.textContent += savedValues;
+function save() {    
+    let savedValues = count + '-';    
+    values.textContent += savedValues;
 };
