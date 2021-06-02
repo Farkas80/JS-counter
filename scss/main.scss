@@ -7,6 +7,10 @@ body {
     font-size: 16px;
 }
 
+p {
+    font-size: 2rem;
+}
+
 .container {
     position: relative;
     top: 50vh;
@@ -33,7 +37,7 @@ button {
     font-size: 4rem;
 }
 
-#resetBtn {
+#resetBtn, #saveBtn {
     font-size: 1.25rem;
     font-weight: 700;
 }

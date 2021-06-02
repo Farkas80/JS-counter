@@ -2,6 +2,8 @@ let mainNum = document.getElementById('mainNum');
 let plusBtn = document.getElementById('plusBtn');
 let minusBtn = document.getElementById('minusBtn');
 let resetBtn = document.getElementById('reset');
+let values = document.getElementById('values');
+
 console.log(mainNum);
 console.log(plusBtn);
 console.log(minusBtn);
@@ -25,4 +27,9 @@ function reset() {
     mainNum.textContent = count;
 }
 
-resetBtn.addEventListener('click', reset());
+function save() {
+    console.log('haho')
+    let savedValues = count + '-';
+    console.log(savedValues);
+    savedValues.textContent += savedValues;
+};
