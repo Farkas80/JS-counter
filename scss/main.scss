@@ -1,3 +1,5 @@
+@import 'config';
+
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +15,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    color: #a39d9d;
-    background: #4e5f6b;
+    color: $bodyColor;
+    background: $bodyBackground;
     
     font-size: 16px;
 }
@@ -27,7 +29,7 @@ p {
     width: 400px;
     height: 700px;
     padding: 60px;
-    background-color: #4e5f6b;
+    background-color: $containerBackground;
     box-shadow: 14px 14px 120px #689268,
                 -14px -14px 20px #689268;
     border-radius: 40px;
@@ -40,7 +42,7 @@ button {
     background: none;
     font-size: 3rem;
     width: 100%;
-    color: dodgerblue;
+    color: $buttonColor;
     margin-bottom: 30px;
     padding: 10px 20px;
     height: 5rem;    
