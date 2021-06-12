@@ -2,3 +2,13 @@ $bodyColor: #a39d9d;
 $bodyBackground: #4e5f6b;
 $containerBackground: #4e5f6b;
 $buttonColor: dodgerblue;
+
+@mixin button-box-shadow {
+    box-shadow: 7px 7px 7px #689268,
+                -7px -7px 7px #689268;
+}
+
+@mixin hover-button-effect {
+    box-shadow: inset 7px 7px 7px #cbced1,
+                inset -7px -7px 7px #fff; 
+}
