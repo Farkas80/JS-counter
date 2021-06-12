@@ -29,7 +29,7 @@ p {
     padding: 60px;
     background-color: #4e5f6b;
     box-shadow: 14px 14px 120px #689268,
-                -14px -14px 20px #8f4040;
+                -14px -14px 20px #689268;
     border-radius: 40px;
 }
 
@@ -52,6 +52,7 @@ button {
 
 #mainNum {
     font-size: 4rem;
+    text-align: center;
 }
 
 #resetBtn, #saveBtn {
