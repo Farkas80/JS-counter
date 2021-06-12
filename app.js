@@ -19,11 +19,11 @@ function decrement() {
 }
 
 function reset() {
-    count = 0;
+    count = 0;   
     mainNum.textContent = count;
 }
 
 function save() {    
-    let savedValues = count + '-';    
+    let savedValues = count + ' - ';    
     values.textContent += savedValues;
 };
