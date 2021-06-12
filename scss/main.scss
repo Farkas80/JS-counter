@@ -13,7 +13,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    color: rgb(163, 151, 151);
+    color: #a39d9d;
     background: #4e5f6b;
     
     font-size: 16px;
@@ -28,19 +28,26 @@ p {
     height: 700px;
     padding: 60px;
     background-color: #4e5f6b;
-    box-shadow: 14px 14px 120px rgb(129, 179, 129),
-                -14px -14px 20px rgb(218, 174, 174);
+    box-shadow: 14px 14px 120px #689268,
+                -14px -14px 20px #8f4040;
     border-radius: 40px;
 }
 
 button {
     cursor: pointer;
-    width: 5rem;
-    height: 3rem;
-    border-radius: 15%;
-    border-style: hidden;
-    font-size: 2rem;
-    box-shadow: 0px 5px 10px rgba(dodgerblue, 40%);
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 3rem;
+    width: 100%;
+    color: dodgerblue;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    height: 5rem;    
+    border-radius: 30%;   
+    //box-shadow: 0px 5px 10px rgba(dodgerblue, 40%);
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #fff;
 }    
 
 #mainNum {
