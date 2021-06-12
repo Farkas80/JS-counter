@@ -63,9 +63,18 @@ button:hover {
 #mainNum {
   font-size: 4rem;
   text-align: center;
+  margin: 10px 0;
 }
 
 #resetBtn, #saveBtn {
   font-size: 1.25rem;
   font-weight: 700;
+}
+
+#plusBtn {
+  margin-bottom: 0;
+}
+
+#values {
+  text-align: center;
 }
