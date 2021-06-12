@@ -10,6 +10,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     color: rgb(163, 151, 151);
@@ -23,15 +24,13 @@ p {
 }
 
 .container {
-    position: relative;    
-    width: 50vw;
-    height: 50vh;
-    margin: auto;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid 15px greenyellow;
+    width: 400px;
+    height: 700px;
+    padding: 60px;
+    background-color: #4e5f6b;
+    box-shadow: 14px 14px 120px rgb(129, 179, 129),
+                -14px -14px 20px rgb(218, 174, 174);
+    border-radius: 40px;
 }
 
 button {
